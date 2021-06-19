@@ -30,7 +30,7 @@ Vous pouvez directement utiliser les composants Windi CSS et Vue pour styliser e
 </div>
 ~~~
 
-## Front Matter & Layouts
+## Page liminaire & Mise en page
 
 Vous pouvez spécifier des mises en page et d'autres métadonnées pour chaque diapositive en convertissant les séparateurs en [blocs de présentation](https://jekyllrb.com/docs/front-matter/). Chaque avant-propos commence par un triple tiret et se termine par un autre. Les textes entre eux sont des objets de données au format [YAML](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started/). Par exemple :
 
@@ -64,7 +64,7 @@ Reportez-vous à [personnalisations](/custom/) pour plus de détails.
 
 ## Blocs de code
 
-L'une des principales raisons pour lesquelles je construis Slidev est de faire en sorte que mon code apparaisse parfaitement dans les diapositives. Donc, comme vous vous y attendiez, vous pouvez utiliser le bloc de code aromatisé Markdown pour mettre en évidence votre code.
+L'une des principales raisons pour lesquelles je construis Slidev est de faire en sorte que mon code apparaisse parfaitement dans les diapositives. Donc, comme vous vous y attendiez, vous pouvez utiliser un bloc de code flavored Markdown pour mettre en évidence votre code.
 
 ~~~ts
 //```ts
@@ -74,7 +74,7 @@ console.log('Hello, World!')
 
 ### Mise en évidence de ligne
 
-Pour mettre en évidence des lignes spécifiques, ajoutez simplement des numéros de ligne entre crochets `{}`. Les numéros de ligne commencent à compter de 1.
+Pour mettre en évidence des lignes spécifiques, ajoutez simplement des numéros de ligne entre crochets `{}`. La numérotation des lignes commence à partir de 1.
 
 ~~~ts
 //```ts {2,3}
@@ -150,7 +150,7 @@ blockquote {
 </style>
 ```
 
-## Remarques
+## Notes
 
 Vous pouvez également prendre des notes pour chaque diapositive. Ils apparaîtront en [Mode Présentateur](/guide/presenter-mode) pour que vous puissiez vous y référer pendant les présentations.
 
@@ -182,7 +182,7 @@ Ceci est une autre note
 
 ## Icônes
 
-Slidev vous permet d'accéder à presque tous les jeux d'icônes open-source populaires ** directement ** dans votre démarque. Propulsé par [`vite-plugin-icons`](https://github.com/antfu/vite-plugin-icons) et [Iconify](https://iconify.design/).
+Slidev vous permet d'accéder à presque tous les jeux d'icônes open-source populaires ** directement ** dans votre markdown. Propulsé par [`vite-plugin-icons`](https://github.com/antfu/vite-plugin-icons) et [Iconify](https://iconify.design/).
 
 Le nom suit la conversion de [Iconify](https://iconify.design/) `{collection-name}-{icon-name}`. Par exemple:
 
@@ -320,7 +320,7 @@ Entourez votre LaTeX d'un seul `$` de chaque côté pour un rendu en ligne.
 $\sqrt{3x-1}+(1+x)^2$
 ```
 
-### Block
+### Bloc
 
 Utilisez deux (`$$`) pour le rendu en bloc. Ce mode utilise des symboles plus grands et centre 
 le résultat.
@@ -371,8 +371,6 @@ En savoir plus: [Démo](https://sli.dev/demo/starter/9) | [Mermaid](https://merm
 
 ## Entrées multiples
 
-Depuis la version v0.15.0, nous avons livré le support multi-entrées. Cela signifie que vous pouvez diviser votre `slides.md` en plusieurs fichiers and les organiser comme vous le souhaitez.
-
 > Disponible depuis v0.15
 
 Vous pouvez diviser votre `slides.md` en plusieurs fichiers et les organiser comme vous le souhaitez.
@@ -400,9 +398,9 @@ Le contenu en ligne sera ignoré
 Cette page provient d'un autre fichier
 ```
 
-### Fusion de frontmatter
+### Fusion de pages liminaires
 
-Vous pouvez fournir des frontmatters depuis l'entrée principale mais également depuis une page markdown externe. S'il y a les mêmes clés, celles de l'**entrée principale ont la priorité la plus élevée**. Par exemple
+Vous pouvez fournir des pages liminaires depuis l'entrée principale mais également depuis une page markdown externe. S'il y a les mêmes clés, celles de l'**entrée principale ont la priorité la plus élevée**. Par exemple
 
 `slides.md` :
 
