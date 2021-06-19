@@ -18,11 +18,11 @@ Avec Yarn :
 $ yarn create slidev
 ```
 
-Suivez les invites et il ouvrira le diaporama à http://localhost:3030/ automatiquement pour vous.
+Suivez les instructions et il ouvrira le diaporama à http://localhost:3030/ automatiquement pour vous.
 
 Il contient également la configuration de base et une courte démo avec des instructions sur la façon de démarrer avec Slidev.
 
-## Installer manuellement
+## Installation manuellement
 
 Si vous préférez toujours installer Slidev manuellement ou souhaitez l'intégrer dans vos projets existants, vous pouvez faire :
 
@@ -42,9 +42,7 @@ $ npx slidev
 > echo 'shamefully-flatten=true' >> .npmrc
 > ```
 
-## Installer globalement
-
-Vous pouvez installer SLidev globallement avec la commande suivante :
+## Installation globale
 
 > Disponible depuis v0.14
 
@@ -64,6 +62,6 @@ Cette commande essaiera également d'utiliser local `@slidev/cli` s'il a été t
 
 ## Installer sur Docker
 
-Si vous avez besoin d'un moyen rapide d'exécuter une présentation avec des conteneurs, vous pouvez utiliser l'image prédéfinie [docker](https://hub.docker.com/r/stig124/slidev) maintenue par [stig124](https://github.com/Stig124), ou créez le vôtre.
+Si vous avez besoin d'un moyen rapide d'exécuter une présentation avec des conteneurs, vous pouvez utiliser l'image prédéfinie [docker](https://hub.docker.com/r/stig124/slidev) maintenue par [stig124](https://github.com/Stig124), ou créer le vôtre.
 
 Reportez-vous au [slidevjs/container repo](https://github.com/slidevjs/container) pour plus de détails.
