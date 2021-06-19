@@ -1,10 +1,10 @@
 # Pourquoi Slidev
 
-Il existe de nombreux fabricants de diapositives WYSIWYG polyvalents et riches en fonctionnalités, tels que [Microsoft PowerPoint](https://www.microsoft.com/en-us/microsoft-365/powerpoint) et [Apple Keynote](https://www.apple.com/keynote/). Ils fonctionnent plutôt bien pour créer de belles diapositives avec des animations, des graphiques et bien d'autres choses, tout en étant très intuitifs et faciles à apprendre. Alors pourquoi prendre la peine de faire Slidev?
+Il existe de nombreux logiciels de présentation polyvalents et riches en fonctionnalités, tels que [Microsoft PowerPoint](https://www.microsoft.com/en-us/microsoft-365/powerpoint) et [Apple Keynote](https://www.apple.com/keynote/). Ils fonctionnent plutôt bien pour créer de belles diapositives avec des animations, des graphiques et bien d'autres choses, tout en étant très intuitifs et faciles à apprendre. Alors pourquoi prendre la peine de faire Slidev ?
 
 Slidev vise à fournir la flexibilité et l'interactivité aux développeurs pour rendre leurs présentations encore plus intéressantes, expressives et attrayantes en utilisant les outils et les technologies avec lesquels ils sont déjà familiers.
 
-Lorsque vous travaillez avec des éditeurs WYSIWYG, il est facile de se laisser distraire par les options de style. Slidev remédie à cela en séparant le contenu et les éléments visuels. Cela vous permet de vous concentrer sur une chose à la fois, tout en pouvant réutiliser les thèmes de la communauté. Slidev ne cherche pas à remplacer entièrement les autres constructeurs de diapositives. Il se concentre plutôt sur la restauration de la communauté des développeurs.
+Lorsque vous travaillez avec des éditeurs WYSIWYG, il est facile de se laisser distraire par les options de style. Slidev remédie à cela en séparant le contenu et les éléments visuels. Cela vous permet de vous concentrer sur une chose à la fois, tout en pouvant réutiliser les thèmes de la communauté. Slidev ne cherche pas à remplacer entièrement les autres constructeurs de diapositives. Il se concentre plutôt à satisfaire les besoins de la communauté des développeurs.
 
 ## Slidev
 
@@ -42,7 +42,7 @@ Vous pouvez écrire des composants Vue personnalisés et les utiliser directemen
 
 ## Prise en charge de l'enregistrement
 
-Slidev fournit un enregistrement intégré et une vue de la caméra. Vous pouvez partager votre présentation avec la vue de votre caméra à l'intérieur, ou les enregistrer et les enregistrer séparément pour votre écran et votre caméra. Tout cela d'un seul coup, aucun outil supplémentaire n'est nécessaire.
+Slidev fournit un enregistrement intégré et une vue de la caméra. Vous pouvez partager votre présentation avec la vue de votre caméra à l'intérieur, ou les enregistrer et les sauvegarder séparément pour votre écran et votre caméra. Tout cela d'un seul coup, aucun outil supplémentaire n'est nécessaire.
 
 En savoir plus sur [enregistrement ici](/guide/recording).
 
@@ -52,9 +52,9 @@ Exportez vos diapositives au format PDF, PNG ou même dans une application monop
 
 Apprenez-en plus à ce sujet dans la [documentation d'exportation](/guide/exporting).
 
-## Hackable
+## Piratable
 
-Étant alimenté par les technologies Web, tout ce qui peut être fait dans une application Web est également possible avec Slidev. Par exemple, WebGL, requêtes API, iframes ou même partage en direct. C'est à votre imagination!
+Étant alimenté par les technologies Web, tout ce qui peut être fait dans une application Web est également possible avec Slidev. Par exemple, WebGL, requêtes API, iframes ou même partage en direct. C'est selon votre imagination !
 
 ## Essaie
 
